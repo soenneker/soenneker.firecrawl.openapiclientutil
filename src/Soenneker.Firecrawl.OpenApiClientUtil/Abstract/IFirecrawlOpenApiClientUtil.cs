@@ -11,9 +11,9 @@ namespace Soenneker.Firecrawl.OpenApiClientUtil.Abstract;
 public interface IFirecrawlOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
     /// <summary>
-    /// Gets the value.
+    /// Returns the configured firecrawl Open API Client used by the firecrawl open api client.
     /// </summary>
-    /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A task containing the result of the operation.</returns>
+    /// <param name="cancellationToken">Token used to cancel the operation.</param>
+    /// <returns>A task whose result is the requested firecrawl Open API Client.</returns>
     ValueTask<FirecrawlOpenApiClient> Get(CancellationToken cancellationToken = default);
 }
