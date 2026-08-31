@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>A thread-safe utility for obtaining Firecrawl's OpenApiClient singleton.</Description>
+        <Description>Provides lazy, cached access to the generated Firecrawl API client.</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Firecrawl.OpenApiClientUtil</AssemblyName>
