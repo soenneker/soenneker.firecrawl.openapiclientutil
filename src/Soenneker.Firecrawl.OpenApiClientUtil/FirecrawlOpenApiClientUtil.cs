@@ -13,6 +13,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.Firecrawl.OpenApiClientUtil;
 
+/// <inheritdoc cref="IFirecrawlOpenApiClientUtil" />
 public sealed class FirecrawlOpenApiClientUtil : IFirecrawlOpenApiClientUtil
 {
     private readonly AsyncSingleton<FirecrawlOpenApiClient> _client;
