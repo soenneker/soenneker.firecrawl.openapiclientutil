@@ -45,6 +45,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Firecrawl.HttpClients" Version="11.0.167" />
-        <PackageReference Include="Soenneker.Firecrawl.OpenApiClient" Version="11.0.98" />
+        <PackageReference Include="Soenneker.Firecrawl.OpenApiClient" Version="11.0.99" />
     </ItemGroup>
 </Project>
